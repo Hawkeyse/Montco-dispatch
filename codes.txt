@@ -1,0 +1,147 @@
+Keyword Channel
+0015021 #county-alerts
+1041005 #41-northpenngoodwill
+1081005 #81-hazmat
+1037005 #37-newhanover
+1038005 #38-eastgreenville
+1042005 #42-greenlane
+1052005 #52-lowerfrederick
+1065005 #65-pennsburg
+1067005 #67-gilbertsville
+1071005 #71-redhill
+1078005 #78-uppersalford
+1087005 #87-upperfrederick
+1034005 #34-collegeville
+1051005 #51-limerick
+1058005 #58-sanatoga
+1059005 #59-ringinghill
+1066005 #66-perkiomen
+1068005 #68-upperprovidence
+1077005 #77-trappe
+1069005 #69-pottstown
+1079005 #79-upperpottsgrove
+1098005 #98-royersford
+1012005 #12-colmar
+1014005 #14-fairmount
+1017005 #17-hatfield
+1018005 #18-montgomery
+1062005 #62-northpenn
+1072005 #72-tylersport
+1074005 #74-souderton
+1075005 #75-telford
+1076005 #76-towamencin
+1080005 #80-uppergwynedd
+1083005 #83-worcester
+1086005 #86-skippack
+1089005 #89-harleysville
+1021005 #21-pennwynne
+1022005 #22-belmonthills
+1023005 #23-byrnmawr
+1024005 #24-gladwyne
+1025005 #25-merion
+1026005 #26-narberth
+1028005 #28-union
+1039005 #39-georgeclay
+1053005 #53-lowerprovidence
+1055005 #55-conshohocken
+1055013 #55-conshohocken
+1056005 #56-uppermerion
+1056* #56-uppermerion
+101005 #1-glenside
+102005 #2-lamott
+103005 #3-elkinspark
+104005 #4cheltenham
+107005 #7-wissahickon
+108005 #1271977984965869602
+109005 #9-rockledge
+// single-digit stations: the real codes are 7 digits, station field zero-padded to 3
+// (1|001|005), the six-digit lines above never matched anything
+1001* #1-glenside
+1002* #2-lamott
+1003* #3-elkinspark
+1004* #4cheltenham
+1006* #6-flourtown
+1160005 #6-flourtown
+1007* #7-wissahickon
+1009* #9-rockledge
+1010005 #1271978092293918750
+1011005 #1271977984965869602
+1015005 #15-horsham
+1088005 #88-fortwashington
+1095005 #95-enterprise
+1099005 #99-jenkintown
+1110005 #100-abington
+1120005 #200-mckinley
+1130005 #300-weldon
+1140005 #400-edgehill
+1150005 #500-roslyn
+106005 #6-flourtown
+1027005 #27-norristown
+1032005 #32-barrenhill
+1033005 #33-centresquare
+1043005 #43-plymouth
+1044005 #44-harmonville
+1045005 #45-springmill
+1046005 #46-jefferson
+1054005 #54-bridgeport
+1061005 #61-norriton
+1082005 #82-wyndmoor
+1700005 #700-oreland
+0304005 #308-plymouth
+0308005 #308-plymouth
+0313005 #313-narberth
+0307005 #313-narberth
+0318005 #318-whitemarsh
+0355005 #319-fetters_mill
+0322005 #322-lower_providence
+0325005 #325-royersford
+0329005 #329-pottstown
+0332005 #332-gilbertsville
+0336005 #336-skippack
+0351005 #351-ambler
+0352005 #352-horsham
+0356005 #356-upper_merion
+0358005 #358-cheltenham
+0369005 #369-upper_perk
+0376005 #376-freedom_valley
+0380013 #380-second_alarmers
+0380021 #380-second_alarmers
+345-D #1270352015037567006
+QRS 18 #18-qrs
+QRS 33 #33-qrs
+QRS 35 #35-qrs
+QRS 62 #62-qrs
+QRS 71 #71-qrs
+QRS 80 #80-qrs
+0345005 #1348716303116009502
+0304005 #1348716303116009502
+0308005 #1348716303116009502
+0313005 #1348716303116009502
+0307005 #1348716303116009502
+0318005 #1348716303116009502
+0355005 #1348716303116009502
+0322005 #1348716303116009502
+0325005 #1348716303116009502
+0329005 #1348716303116009502
+0332005 #1348716303116009502
+0336005 #1348716303116009502
+0351005 #1348716303116009502
+0352005 #1348716303116009502
+0356005 #1348716303116009502
+0358005 #1348716303116009502
+0369005 #1348716303116009502
+0376005 #1348716303116009502
+0380013 #1348716303116009502
+0380021 #1348716303116009502
+QRS 18 #1348716303116009502
+QRS 33 #1348716303116009502
+QRS 35 #1348716303116009502
+QRS 62 #1348716303116009502
+QRS 71 #1348716303116009502
+QRS 80 #1348716303116009502
+// 345 is split in two: 345-D only -> 345-vmsc in the Region 3 category (ID 1270352015037567006), 0345005 only -> EMS tab
+// call-type routes: every page whose NAT: field contains the text goes to the channel,
+// whatever the station code is (these are the Fire Box / Rescue Box channels, by channel ID)
+NAT BUILDING FIRE #1273281279260885033
+NAT RESCUE #1273281246729863218
+NAT FIRE ALARM #1273281246729863218
